@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TGMoreInfoV" customModule="TGTV" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="jDh-mt-WTo">
+                    <rect key="frame" x="10" y="10" width="355" height="40"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R24-IB-wlL" customClass="TGButton" customModule="TGTV" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="89" height="40"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <state key="normal" title="炫彩飞屏" image="more_btn_flyscreen"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WfO-Oc-Hr9" customClass="TGButton" customModule="TGTV" customModuleProvider="target">
+                            <rect key="frame" x="89" y="0.0" width="88.5" height="40"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <state key="normal" title="广播" image="more_btn_radio"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p21-oh-E5P" customClass="TGButton" customModule="TGTV" customModuleProvider="target">
+                            <rect key="frame" x="177.5" y="0.0" width="89" height="40"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <state key="normal" title="发红包" image="more_btn_redbag"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxR-dI-E1f" customClass="TGButton" customModule="TGTV" customModuleProvider="target">
+                            <rect key="frame" x="266.5" y="0.0" width="88.5" height="40"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <state key="normal" title="举报" image="more_btn_report"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.5" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="jDh-mt-WTo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="8OR-kW-iSw"/>
+                <constraint firstAttribute="bottom" secondItem="jDh-mt-WTo" secondAttribute="bottom" constant="10" id="Rtt-MC-utn"/>
+                <constraint firstAttribute="trailing" secondItem="jDh-mt-WTo" secondAttribute="trailing" constant="10" id="n6e-PD-yof"/>
+                <constraint firstItem="jDh-mt-WTo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="ofb-SF-1qK"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outletCollection property="btns" destination="bxR-dI-E1f" id="B5n-kG-PTD"/>
+                <outletCollection property="btns" destination="p21-oh-E5P" id="3CM-tg-hQV"/>
+                <outletCollection property="btns" destination="WfO-Oc-Hr9" id="fKQ-Hv-Kts"/>
+                <outletCollection property="btns" destination="R24-IB-wlL" id="3O5-Kt-8bK"/>
+            </connections>
+            <point key="canvasLocation" x="18.5" y="352.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="more_btn_flyscreen" width="25" height="25"/>
+        <image name="more_btn_radio" width="25" height="25"/>
+        <image name="more_btn_redbag" width="25" height="25"/>
+        <image name="more_btn_report" width="25" height="25"/>
+    </resources>
+</document>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TGGiftViewCell" customModule="TGTV" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="56" height="85"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="56" height="85"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="i0k-pr-53h">
+                        <rect key="frame" x="3" y="1" width="50" height="50"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="78o-e4-J3G"/>
+                            <constraint firstAttribute="height" constant="50" id="WnA-fJ-fjG"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wde-lD-EvA" userLabel="名字">
+                        <rect key="frame" x="13" y="52" width="31" height="14.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dth-aV-uAk" userLabel="价格">
+                        <rect key="frame" x="12" y="67.5" width="33" height="16"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="0.70085081335616439" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="wde-lD-EvA" firstAttribute="centerX" secondItem="i0k-pr-53h" secondAttribute="centerX" id="IcR-Xt-88a"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="dth-aV-uAk" secondAttribute="bottom" constant="1" id="RTE-u0-Gnl"/>
+                <constraint firstItem="dth-aV-uAk" firstAttribute="top" secondItem="wde-lD-EvA" secondAttribute="bottom" constant="1" id="TQd-dY-i3U"/>
+                <constraint firstItem="dth-aV-uAk" firstAttribute="centerX" secondItem="i0k-pr-53h" secondAttribute="centerX" id="cMC-zh-w7T"/>
+                <constraint firstItem="i0k-pr-53h" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="1" id="cg0-EX-vx8"/>
+                <constraint firstItem="i0k-pr-53h" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="keP-sU-cmL"/>
+                <constraint firstItem="wde-lD-EvA" firstAttribute="top" secondItem="i0k-pr-53h" secondAttribute="bottom" constant="1" id="tJB-9Y-8Qd"/>
+            </constraints>
+            <size key="customSize" width="56" height="85"/>
+            <connections>
+                <outlet property="iconImageV" destination="i0k-pr-53h" id="nET-uz-cXx"/>
+                <outlet property="priceLbl" destination="dth-aV-uAk" id="NRs-0R-kGA"/>
+                <outlet property="subjectLbl" destination="wde-lD-EvA" id="JKj-Gv-uTN"/>
+            </connections>
+            <point key="canvasLocation" x="28" y="69.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TGChatV" customModule="TGTV" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="382" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="和主播聊一聊吧" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yed-36-0bT">
+                    <rect key="frame" x="3" y="3" width="323" height="38"/>
+                    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.5" colorSpace="calibratedRGB"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <action selector="textFieldDidEdit:" destination="iN0-l3-epB" eventType="editingChanged" id="h5j-67-SZN"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XxU-tU-t7o">
+                    <rect key="frame" x="329" y="3" width="50" height="38"/>
+                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="iac-eD-Umo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="发送">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="disabled">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="19"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="sendMessage:" destination="iN0-l3-epB" eventType="touchUpInside" id="wVy-ZB-gLE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="XxU-tU-t7o" secondAttribute="bottom" constant="3" id="5Ns-Wa-ceP"/>
+                <constraint firstAttribute="trailing" secondItem="XxU-tU-t7o" secondAttribute="trailing" constant="3" id="9w3-uo-SJn"/>
+                <constraint firstItem="XxU-tU-t7o" firstAttribute="leading" secondItem="Yed-36-0bT" secondAttribute="trailing" constant="3" id="BEO-dj-w3d"/>
+                <constraint firstItem="Yed-36-0bT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="3" id="COT-TT-BwY"/>
+                <constraint firstAttribute="bottom" secondItem="Yed-36-0bT" secondAttribute="bottom" constant="3" id="Z8P-R1-BFr"/>
+                <constraint firstItem="XxU-tU-t7o" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="3" id="cX7-OS-1i6"/>
+                <constraint firstItem="Yed-36-0bT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="3" id="i0I-Hu-ZMj"/>
+                <constraint firstItem="XxU-tU-t7o" firstAttribute="leading" secondItem="Yed-36-0bT" secondAttribute="trailing" constant="3" id="sfh-xM-hhN"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="inputTextField" destination="Yed-36-0bT" id="fMz-VH-MQl"/>
+                <outlet property="sendBtn" destination="XxU-tU-t7o" id="Pwz-Rw-mKU"/>
+            </connections>
+            <point key="canvasLocation" x="29" y="364"/>
+        </view>
+    </objects>
+</document>

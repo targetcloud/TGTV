@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TGGiftListV" customModule="TGTV" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="399" height="335"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="赠送礼物" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMu-eh-1vc">
+                    <rect key="frame" x="10" y="8" width="53.5" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aey-CD-qWf">
+                    <rect key="frame" x="346" y="3" width="50" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="0.29735659246575341" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="PCG-9m-95R"/>
+                        <constraint firstAttribute="width" constant="50" id="oWs-ua-217"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="充值">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="余额：0 播币" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6E4-Er-RfN">
+                    <rect key="frame" x="279.5" y="11.5" width="66.5" height="13.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tpR-p1-X2a" userLabel="分割线">
+                    <rect key="frame" x="0.0" y="38" width="399" height="1"/>
+                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Nvz-5e-J2T"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="赠给：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8h-Fz-FxI">
+                    <rect key="frame" x="10" y="314" width="40" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mIo-O5-gmn">
+                    <rect key="frame" x="0.0" y="38" width="399" height="257"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c45-zF-Wml">
+                    <rect key="frame" x="339" y="300" width="50" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="6zz-oe-ist"/>
+                        <constraint firstAttribute="height" constant="30" id="iCb-cC-hUE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="赠送">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="sendGiftBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="rVh-tX-lY5"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="0.5" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="mIo-O5-gmn" firstAttribute="top" secondItem="aey-CD-qWf" secondAttribute="bottom" constant="5" id="2X9-yy-zM8"/>
+                <constraint firstItem="aey-CD-qWf" firstAttribute="leading" secondItem="6E4-Er-RfN" secondAttribute="trailing" id="32x-po-U6e"/>
+                <constraint firstItem="I8h-Fz-FxI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="5aC-CE-Iuw"/>
+                <constraint firstAttribute="trailing" secondItem="mIo-O5-gmn" secondAttribute="trailing" id="5qN-QJ-ugD"/>
+                <constraint firstItem="6E4-Er-RfN" firstAttribute="centerY" secondItem="aey-CD-qWf" secondAttribute="centerY" id="I1d-EU-oxP"/>
+                <constraint firstItem="RMu-eh-1vc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="RiO-rN-Otw"/>
+                <constraint firstItem="aey-CD-qWf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="3" id="a1Y-5I-OiG"/>
+                <constraint firstItem="mIo-O5-gmn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="bdO-TQ-UX4"/>
+                <constraint firstItem="tpR-p1-X2a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="c7m-Rf-8dR"/>
+                <constraint firstItem="c45-zF-Wml" firstAttribute="top" secondItem="mIo-O5-gmn" secondAttribute="bottom" constant="5" id="f1i-t0-IKS"/>
+                <constraint firstAttribute="trailing" secondItem="tpR-p1-X2a" secondAttribute="trailing" id="g99-0e-cfC"/>
+                <constraint firstAttribute="trailing" secondItem="c45-zF-Wml" secondAttribute="trailing" constant="10" id="gFp-wU-je1"/>
+                <constraint firstAttribute="trailing" secondItem="aey-CD-qWf" secondAttribute="trailing" constant="3" id="iL4-3y-fNw"/>
+                <constraint firstAttribute="bottom" secondItem="I8h-Fz-FxI" secondAttribute="bottom" constant="5" id="kQj-NL-kAl"/>
+                <constraint firstAttribute="bottom" secondItem="c45-zF-Wml" secondAttribute="bottom" constant="5" id="lUX-cP-3uy"/>
+                <constraint firstItem="tpR-p1-X2a" firstAttribute="top" secondItem="aey-CD-qWf" secondAttribute="bottom" constant="5" id="qPa-eF-c2V"/>
+                <constraint firstItem="RMu-eh-1vc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="x52-n4-OtU"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="giftV" destination="mIo-O5-gmn" id="I5l-kp-vZP"/>
+                <outlet property="sendGiftBtn" destination="c45-zF-Wml" id="o2g-qN-Qf2"/>
+                <outlet property="sendTo" destination="I8h-Fz-FxI" id="fli-RN-xY6"/>
+            </connections>
+            <point key="canvasLocation" x="37.5" y="214.5"/>
+        </view>
+    </objects>
+</document>

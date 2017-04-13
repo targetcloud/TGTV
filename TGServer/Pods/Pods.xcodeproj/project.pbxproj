@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		082C8B368AE917283ADC625300A94E65 /* Google.Protobuf.Api.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7629C05A9DFFA2DD9B22D294B2A13EC /* Google.Protobuf.Api.proto.swift */; };
+		11705ECAC2B73BAA2E273276E3E791C3 /* Google.Protobuf.Type.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E59699AEBC5B16983EDB217B35912 /* Google.Protobuf.Type.proto.swift */; };
+		14EEF837D4AAB5C2A030C18211F5FA8D /* Pods-TGServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7F01B7BFA75B8A42FC542E83097B8B /* Pods-TGServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18CAC5C7FDA1687CB79878B04AF17262 /* Google.Protobuf.Timestamp.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6C7997888D13E2DE63EB7A5374CCA /* Google.Protobuf.Timestamp.proto.swift */; };
+		1BEA19FA1A99BAAB765BEFD71A32C160 /* Google.Protobuf.Any.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F37BE0737820FD42053E7258CA352A /* Google.Protobuf.Any.proto.swift */; };
+		2256845CF7377AD6DB891414586CCE46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E110E3518E2D475577D0E2056C8B05D /* Foundation.framework */; };
+		23347BB8A8F5D17109A810B61FE8348F /* CodedOutputStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50914BA79E612BDC8D57E8B4893E40A /* CodedOutputStream.swift */; };
+		3CA9A3C85DCD2F4ADF3A81E38E87F8ED /* Google.Protobuf.SourceContext.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAA2C656B48BF069FAC2D6D4C63873F /* Google.Protobuf.SourceContext.proto.swift */; };
+		582B49657A0A00F48C61F764A0B40038 /* WireFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA9F12192E939F7302D966091D1EBEF /* WireFormat.swift */; };
+		585F2522883A54354FE1D8D7402A551F /* Google.Protobuf.FieldMask.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433892774975B77D95B7C64622C504D /* Google.Protobuf.FieldMask.proto.swift */; };
+		5B73C3204187D6CE1BC71441DACF2A91 /* Google.Protobuf.Duration.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B522BD31FB336BB2BC6AA62F2253BA /* Google.Protobuf.Duration.proto.swift */; };
+		7A4B6A5053C6D74A9C5DDB41C66068B9 /* Google.Protobuf.Struct.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A2EE7BD8924BEAE60687B92DFCE0B /* Google.Protobuf.Struct.proto.swift */; };
+		7F331B3B3DE78975A9F43C1A4ED18249 /* GeneratedMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404CD8C59F2F1419D0F7AED92521EE89 /* GeneratedMessage.swift */; };
+		85DB1EDAF90F5A10ABC173C18049279D /* Google.Protobuf.Descriptor.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA92A27C250F3CF0A2ED48153EB7637 /* Google.Protobuf.Descriptor.proto.swift */; };
+		8B69AE25AAE117DD4D497CCE999F89C9 /* RingBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BFCD8E3D2CE657DE6ABF4C6D780BA0 /* RingBuffer.swift */; };
+		8B9C726182886C5A074E796FFC736596 /* AbstractMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B48C82677B030E0645E33A1F51A265 /* AbstractMessage.swift */; };
+		8D495D1B1082FE10A4A6E1ECCBB1C3F1 /* Pods-TGServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B569E2DCDD423CD312B87C5BAAC520 /* Pods-TGServer-dummy.m */; };
+		8ECFD348FDFD13D0E72B64C16AE37498 /* ExtensionRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21916BE56E7E1D11579A1885674794FF /* ExtensionRegistry.swift */; };
+		97A7F602145E0B372633D3AFFE93A3C5 /* ExtendableMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8C447F8F703666184DCCC5A9E7CF3D /* ExtendableMessage.swift */; };
+		981CCEF55BE3B07CC17B4BE440E08377 /* ConcreateExtensionField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A8E89881B607AE8E39AACAA1AF46C /* ConcreateExtensionField.swift */; };
+		98F6C31B9216828A1EE75173FA5411F6 /* ProtocolBuffers-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E3BF6A010CEA4D718498DA207E22CF /* ProtocolBuffers-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A507294C4155713FD3D23DA6BF8D5B9 /* UnknownFieldSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433EBC46EE0E2B6EB0ADF5EAAE3E7DE8 /* UnknownFieldSet.swift */; };
+		A44B9FF8ABFC8826AE681B012C446F6C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6526E38143AA3C7320583E142AA64538 /* Cocoa.framework */; };
+		AD2BED2020B519C15D61E6ADBF3F27E9 /* Google.Protobuf.Wrappers.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1DB4148E83032F63E2AD7D62A75EB3 /* Google.Protobuf.Wrappers.proto.swift */; };
+		AF545FDBEA5A3A11076F8358C26E1905 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F086D0BB0D5C7986E11193AEA9E42B /* Field.swift */; };
+		DCCB4049B94E230914DC033A47599197 /* CodedInputStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A051FDB6027E0BF424B0F453C3804B6 /* CodedInputStream.swift */; };
+		E3B3384F8EA346A36152EF4B3E164799 /* Google.Protobuf.Empty.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F1D3D14FBA0B08BF4C2A4C89CCAC92 /* Google.Protobuf.Empty.proto.swift */; };
+		E8E9E39AF51EB12B8294E973EE97A903 /* ProtocolBuffers-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4314BE7D1D0BC097FFF89A611436F755 /* ProtocolBuffers-Swift-dummy.m */; };
+		F1D80863EBA55A4714DD767039D3F51A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6526E38143AA3C7320583E142AA64538 /* Cocoa.framework */; };
+		FAE36334B54833923D6D42AF28F6251C /* Google.Protobuf.SwiftDescriptor.proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F0DA66A2E75CBC521DFC36E4855FBB /* Google.Protobuf.SwiftDescriptor.proto.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC62A01604D620C544722ABA3E24D698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07B48A1AD50E2C689D7EF677A0FA4FB7;
+			remoteInfo = "ProtocolBuffers-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EA0241DFB580BDA594ABD412D05509 /* Pods-TGServer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TGServer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A1A8E89881B607AE8E39AACAA1AF46C /* ConcreateExtensionField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConcreateExtensionField.swift; path = Source/ConcreateExtensionField.swift; sourceTree = "<group>"; };
+		1C8C447F8F703666184DCCC5A9E7CF3D /* ExtendableMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtendableMessage.swift; path = Source/ExtendableMessage.swift; sourceTree = "<group>"; };
+		1E110E3518E2D475577D0E2056C8B05D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1F7F01B7BFA75B8A42FC542E83097B8B /* Pods-TGServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TGServer-umbrella.h"; sourceTree = "<group>"; };
+		1F81ADC9AE73D01B001A42D6AF6FA7E2 /* ProtocolBuffers-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "ProtocolBuffers-Swift.modulemap"; sourceTree = "<group>"; };
+		21916BE56E7E1D11579A1885674794FF /* ExtensionRegistry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionRegistry.swift; path = Source/ExtensionRegistry.swift; sourceTree = "<group>"; };
+		39B48C82677B030E0645E33A1F51A265 /* AbstractMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AbstractMessage.swift; path = Source/AbstractMessage.swift; sourceTree = "<group>"; };
+		3A57EFE37A67EBA7A0E261719BA62918 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AA92A27C250F3CF0A2ED48153EB7637 /* Google.Protobuf.Descriptor.proto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Google.Protobuf.Descriptor.proto.swift; path = Source/Google.Protobuf.Descriptor.proto.swift; sourceTree = "<group>"; };
+		3CA22C6D5F2CE1AF09311DDAB58BDABA /* ProtocolBuffers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ProtocolBuffers.framework; path = "ProtocolBuffers-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		404CD8C59F2F1419D0F7AED92521EE89 /* GeneratedMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeneratedMessage.swift; path = Source/GeneratedMessage.swift; sourceTree = "<group>"; };
+		40B522BD31FB336BB2BC6AA62F2253BA /* Google.Protobuf.Duration.proto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Google.Protobuf.Duration.proto.swift; path = Source/Google.Protobuf.Duration.proto.swift; sourceTree = "<group>"; };
+		4314BE7D1D0BC097FFF89A611436F755 /* ProtocolBuffers-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ProtocolBuffers-Swift-dummy.m"; sourceTree = "<group>"; };
+		433EBC46EE0E2B6EB0ADF5EAAE3E7DE8 /* UnknownFieldSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnknownFieldSet.swift; path = Source/UnknownFieldSet.swift; sourceTree = "<group>"; };
+		43F086D0BB0D5C7986E11193AEA9E42B /* Field.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Field.swift; path = Source/Field.swift; sourceTree = "<group>"; };
+		4AAA2C656B48BF069FAC2D6D4C63873F /* Google.Protobuf.SourceContext.proto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Google.Protobuf.SourceContext.proto.swift; path = Source/Google.Protobuf.SourceContext.proto.swift; sourceTree = "<group>"; };
+		4F464E3BE14472EF39AD3C511A7B92D5 /* Pods_TGServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TGServer.framework; path = "Pods-TGServer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE7CEBB1AA1F40B30111C47D8D35348 /* Pods-TGServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TGServer.release.xcconfig"; sourceTree = "<group>"; };
+		64BFCD8E3D2CE657DE6ABF4C6D780BA0 /* RingBuffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RingBuffer.swift; path = Source/RingBuffer.swift; sourceTree = "<group>"; };
+		6526E38143AA3C7320583E142AA64538 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		66F1D3D14FBA0B08BF4C2A4C89CCAC92 /* Google.Protobuf.Empty.proto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Google.Protobuf.Empty.proto.swift; path = Source/Google.Protobuf.Empty.proto.swift; sourceTree = "<group>"; };
+		67F37BE0737820FD42053E7258CA352A /* Google.Protobuf.Any.proto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Google.Protobuf.Any.proto.swift; path = Source/Google.Protobuf.Any.proto.swift; sourceTree = "<group>"; };
+		6FE10FE47E2F54A6062ED86E6049BE81 /* Pods-TGServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TGServer.debug.xcconfig"; sourceTree = "<group>"; };
+		82B569E2DCDD423CD312B87C5BAAC520 /* Pods-TGServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TGServer-dummy.m"; sourceTree = "<group>"; };
+		8433892774975B77D95B7C64622C504D /* Google.Protobuf.FieldMask.proto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Google.Protobuf.FieldMask.proto.swift; path = Source/Google.Protobuf.FieldMask.proto.swift; sourceTree = "<group>"; };
+		8A79936B215A29F4EFD5F65BFC7474B7 /* Pods-TGServer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TGServer-resources.sh"; sourceTree = "<group>"; };
+		8AD6C7997888D13E2DE63EB7A5374CCA /* Google.Protobuf.Timestamp.proto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Google.Protobuf.Timestamp.proto.swift; path = Source/Google.Protobuf.Timestamp.proto.swift; sourceTree = "<group>"; };
+		930FB97AD347C96372756F9365E832FE /* Pods-TGServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TGServer.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98E3BF6A010CEA4D718498DA207E22CF /* ProtocolBuffers-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProtocolBuffers-Swift-umbrella.h"; sourceTree = "<group>"; };
+		98F0DA66A2E75CBC521DFC36E4855FBB /* Google.Protobuf.SwiftDescriptor.proto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Google.Protobuf.SwiftDescriptor.proto.swift; path = Source/Google.Protobuf.SwiftDescriptor.proto.swift; sourceTree = "<group>"; };
+		996A1A5BBD085EA48FE4C0F28196311D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A051FDB6027E0BF424B0F453C3804B6 /* CodedInputStream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodedInputStream.swift; path = Source/CodedInputStream.swift; sourceTree = "<group>"; };
+		9D1DB4148E83032F63E2AD7D62A75EB3 /* Google.Protobuf.Wrappers.proto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Google.Protobuf.Wrappers.proto.swift; path = Source/Google.Protobuf.Wrappers.proto.swift; sourceTree = "<group>"; };
+		B7629C05A9DFFA2DD9B22D294B2A13EC /* Google.Protobuf.Api.proto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Google.Protobuf.Api.proto.swift; path = Source/Google.Protobuf.Api.proto.swift; sourceTree = "<group>"; };
+		C985AFFBADBB970D96E242AA468AB508 /* ProtocolBuffers-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProtocolBuffers-Swift-prefix.pch"; sourceTree = "<group>"; };
+		CA6A2EE7BD8924BEAE60687B92DFCE0B /* Google.Protobuf.Struct.proto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Google.Protobuf.Struct.proto.swift; path = Source/Google.Protobuf.Struct.proto.swift; sourceTree = "<group>"; };
+		CDA9F12192E939F7302D966091D1EBEF /* WireFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WireFormat.swift; path = Source/WireFormat.swift; sourceTree = "<group>"; };
+		D50914BA79E612BDC8D57E8B4893E40A /* CodedOutputStream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodedOutputStream.swift; path = Source/CodedOutputStream.swift; sourceTree = "<group>"; };
+		E13EF0B6D35AB7BEF280E7555545953B /* ProtocolBuffers-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ProtocolBuffers-Swift.xcconfig"; sourceTree = "<group>"; };
+		ECEEFCC808A61500887FE16D6C6D92CE /* Pods-TGServer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TGServer-acknowledgements.plist"; sourceTree = "<group>"; };
+		F43E59699AEBC5B16983EDB217B35912 /* Google.Protobuf.Type.proto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Google.Protobuf.Type.proto.swift; path = Source/Google.Protobuf.Type.proto.swift; sourceTree = "<group>"; };
+		FB55C12EE1B7A07AB3304E386005FF5B /* Pods-TGServer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TGServer-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B1151B7752F2B0D73017188E51AFEA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44B9FF8ABFC8826AE681B012C446F6C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE14F1B0C5711AE1CE35D803E19E2A56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D80863EBA55A4714DD767039D3F51A /* Cocoa.framework in Frameworks */,
+				2256845CF7377AD6DB891414586CCE46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17192B88158E3C3E834C27DED195566E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F464E3BE14472EF39AD3C511A7B92D5 /* Pods_TGServer.framework */,
+				3CA22C6D5F2CE1AF09311DDAB58BDABA /* ProtocolBuffers.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3816566B7D5284983DA085354F763D74 /* Pods-TGServer */ = {
+			isa = PBXGroup;
+			children = (
+				996A1A5BBD085EA48FE4C0F28196311D /* Info.plist */,
+				930FB97AD347C96372756F9365E832FE /* Pods-TGServer.modulemap */,
+				04EA0241DFB580BDA594ABD412D05509 /* Pods-TGServer-acknowledgements.markdown */,
+				ECEEFCC808A61500887FE16D6C6D92CE /* Pods-TGServer-acknowledgements.plist */,
+				82B569E2DCDD423CD312B87C5BAAC520 /* Pods-TGServer-dummy.m */,
+				FB55C12EE1B7A07AB3304E386005FF5B /* Pods-TGServer-frameworks.sh */,
+				8A79936B215A29F4EFD5F65BFC7474B7 /* Pods-TGServer-resources.sh */,
+				1F7F01B7BFA75B8A42FC542E83097B8B /* Pods-TGServer-umbrella.h */,
+				6FE10FE47E2F54A6062ED86E6049BE81 /* Pods-TGServer.debug.xcconfig */,
+				5BE7CEBB1AA1F40B30111C47D8D35348 /* Pods-TGServer.release.xcconfig */,
+			);
+			name = "Pods-TGServer";
+			path = "Target Support Files/Pods-TGServer";
+			sourceTree = "<group>";
+		};
+		5E785F9148507B359F4C9E14B54BA6DD /* ProtocolBuffers-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				39B48C82677B030E0645E33A1F51A265 /* AbstractMessage.swift */,
+				9A051FDB6027E0BF424B0F453C3804B6 /* CodedInputStream.swift */,
+				D50914BA79E612BDC8D57E8B4893E40A /* CodedOutputStream.swift */,
+				1A1A8E89881B607AE8E39AACAA1AF46C /* ConcreateExtensionField.swift */,
+				1C8C447F8F703666184DCCC5A9E7CF3D /* ExtendableMessage.swift */,
+				21916BE56E7E1D11579A1885674794FF /* ExtensionRegistry.swift */,
+				43F086D0BB0D5C7986E11193AEA9E42B /* Field.swift */,
+				404CD8C59F2F1419D0F7AED92521EE89 /* GeneratedMessage.swift */,
+				67F37BE0737820FD42053E7258CA352A /* Google.Protobuf.Any.proto.swift */,
+				B7629C05A9DFFA2DD9B22D294B2A13EC /* Google.Protobuf.Api.proto.swift */,
+				3AA92A27C250F3CF0A2ED48153EB7637 /* Google.Protobuf.Descriptor.proto.swift */,
+				40B522BD31FB336BB2BC6AA62F2253BA /* Google.Protobuf.Duration.proto.swift */,
+				66F1D3D14FBA0B08BF4C2A4C89CCAC92 /* Google.Protobuf.Empty.proto.swift */,
+				8433892774975B77D95B7C64622C504D /* Google.Protobuf.FieldMask.proto.swift */,
+				4AAA2C656B48BF069FAC2D6D4C63873F /* Google.Protobuf.SourceContext.proto.swift */,
+				CA6A2EE7BD8924BEAE60687B92DFCE0B /* Google.Protobuf.Struct.proto.swift */,
+				98F0DA66A2E75CBC521DFC36E4855FBB /* Google.Protobuf.SwiftDescriptor.proto.swift */,
+				8AD6C7997888D13E2DE63EB7A5374CCA /* Google.Protobuf.Timestamp.proto.swift */,
+				F43E59699AEBC5B16983EDB217B35912 /* Google.Protobuf.Type.proto.swift */,
+				9D1DB4148E83032F63E2AD7D62A75EB3 /* Google.Protobuf.Wrappers.proto.swift */,
+				64BFCD8E3D2CE657DE6ABF4C6D780BA0 /* RingBuffer.swift */,
+				433EBC46EE0E2B6EB0ADF5EAAE3E7DE8 /* UnknownFieldSet.swift */,
+				CDA9F12192E939F7302D966091D1EBEF /* WireFormat.swift */,
+				AE6853848A8C182E59A9E5018ED66368 /* Support Files */,
+			);
+			name = "ProtocolBuffers-Swift";
+			path = "ProtocolBuffers-Swift";
+			sourceTree = "<group>";
+		};
+		66102FC0768B9A614106BD26B0E8CC9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E785F9148507B359F4C9E14B54BA6DD /* ProtocolBuffers-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */,
+				66102FC0768B9A614106BD26B0E8CC9B /* Pods */,
+				17192B88158E3C3E834C27DED195566E /* Products */,
+				B5E463CCD03F045D94EE29CCFF26BEC0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92FC4590B3B6C6A2141FDC7D1DA8879E /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				6526E38143AA3C7320583E142AA64538 /* Cocoa.framework */,
+				1E110E3518E2D475577D0E2056C8B05D /* Foundation.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		AE6853848A8C182E59A9E5018ED66368 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A57EFE37A67EBA7A0E261719BA62918 /* Info.plist */,
+				1F81ADC9AE73D01B001A42D6AF6FA7E2 /* ProtocolBuffers-Swift.modulemap */,
+				E13EF0B6D35AB7BEF280E7555545953B /* ProtocolBuffers-Swift.xcconfig */,
+				4314BE7D1D0BC097FFF89A611436F755 /* ProtocolBuffers-Swift-dummy.m */,
+				C985AFFBADBB970D96E242AA468AB508 /* ProtocolBuffers-Swift-prefix.pch */,
+				98E3BF6A010CEA4D718498DA207E22CF /* ProtocolBuffers-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ProtocolBuffers-Swift";
+			sourceTree = "<group>";
+		};
+		B5E463CCD03F045D94EE29CCFF26BEC0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3816566B7D5284983DA085354F763D74 /* Pods-TGServer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92FC4590B3B6C6A2141FDC7D1DA8879E /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		74FDB9E720815196E51D76803D1ED8AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F6C31B9216828A1EE75173FA5411F6 /* ProtocolBuffers-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07234285C219676593C13A3DA0D7D6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14EEF837D4AAB5C2A030C18211F5FA8D /* Pods-TGServer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07B48A1AD50E2C689D7EF677A0FA4FB7 /* ProtocolBuffers-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DDCD70F266F9BF6C5BF09A0D16C6B40 /* Build configuration list for PBXNativeTarget "ProtocolBuffers-Swift" */;
+			buildPhases = (
+				C885EB1FDCA318079F4268951B98A2F1 /* Sources */,
+				EE14F1B0C5711AE1CE35D803E19E2A56 /* Frameworks */,
+				74FDB9E720815196E51D76803D1ED8AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ProtocolBuffers-Swift";
+			productName = "ProtocolBuffers-Swift";
+			productReference = 3CA22C6D5F2CE1AF09311DDAB58BDABA /* ProtocolBuffers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D02D7CB679C1207B94C6CCF4808FDBD /* Pods-TGServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E7A8D04C1F13E091443056175E0C54 /* Build configuration list for PBXNativeTarget "Pods-TGServer" */;
+			buildPhases = (
+				4F268417797F20C532A9ED0A5D89EA5E /* Sources */,
+				7B1151B7752F2B0D73017188E51AFEA6 /* Frameworks */,
+				E07234285C219676593C13A3DA0D7D6B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C4075DBD3CD0F4D3C9B3DE9B396E358 /* PBXTargetDependency */,
+			);
+			name = "Pods-TGServer";
+			productName = "Pods-TGServer";
+			productReference = 4F464E3BE14472EF39AD3C511A7B92D5 /* Pods_TGServer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 17192B88158E3C3E834C27DED195566E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D02D7CB679C1207B94C6CCF4808FDBD /* Pods-TGServer */,
+				07B48A1AD50E2C689D7EF677A0FA4FB7 /* ProtocolBuffers-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F268417797F20C532A9ED0A5D89EA5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D495D1B1082FE10A4A6E1ECCBB1C3F1 /* Pods-TGServer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C885EB1FDCA318079F4268951B98A2F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9C726182886C5A074E796FFC736596 /* AbstractMessage.swift in Sources */,
+				DCCB4049B94E230914DC033A47599197 /* CodedInputStream.swift in Sources */,
+				23347BB8A8F5D17109A810B61FE8348F /* CodedOutputStream.swift in Sources */,
+				981CCEF55BE3B07CC17B4BE440E08377 /* ConcreateExtensionField.swift in Sources */,
+				97A7F602145E0B372633D3AFFE93A3C5 /* ExtendableMessage.swift in Sources */,
+				8ECFD348FDFD13D0E72B64C16AE37498 /* ExtensionRegistry.swift in Sources */,
+				AF545FDBEA5A3A11076F8358C26E1905 /* Field.swift in Sources */,
+				7F331B3B3DE78975A9F43C1A4ED18249 /* GeneratedMessage.swift in Sources */,
+				1BEA19FA1A99BAAB765BEFD71A32C160 /* Google.Protobuf.Any.proto.swift in Sources */,
+				082C8B368AE917283ADC625300A94E65 /* Google.Protobuf.Api.proto.swift in Sources */,
+				85DB1EDAF90F5A10ABC173C18049279D /* Google.Protobuf.Descriptor.proto.swift in Sources */,
+				5B73C3204187D6CE1BC71441DACF2A91 /* Google.Protobuf.Duration.proto.swift in Sources */,
+				E3B3384F8EA346A36152EF4B3E164799 /* Google.Protobuf.Empty.proto.swift in Sources */,
+				585F2522883A54354FE1D8D7402A551F /* Google.Protobuf.FieldMask.proto.swift in Sources */,
+				3CA9A3C85DCD2F4ADF3A81E38E87F8ED /* Google.Protobuf.SourceContext.proto.swift in Sources */,
+				7A4B6A5053C6D74A9C5DDB41C66068B9 /* Google.Protobuf.Struct.proto.swift in Sources */,
+				FAE36334B54833923D6D42AF28F6251C /* Google.Protobuf.SwiftDescriptor.proto.swift in Sources */,
+				18CAC5C7FDA1687CB79878B04AF17262 /* Google.Protobuf.Timestamp.proto.swift in Sources */,
+				11705ECAC2B73BAA2E273276E3E791C3 /* Google.Protobuf.Type.proto.swift in Sources */,
+				AD2BED2020B519C15D61E6ADBF3F27E9 /* Google.Protobuf.Wrappers.proto.swift in Sources */,
+				E8E9E39AF51EB12B8294E973EE97A903 /* ProtocolBuffers-Swift-dummy.m in Sources */,
+				8B69AE25AAE117DD4D497CCE999F89C9 /* RingBuffer.swift in Sources */,
+				9A507294C4155713FD3D23DA6BF8D5B9 /* UnknownFieldSet.swift in Sources */,
+				582B49657A0A00F48C61F764A0B40038 /* WireFormat.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C4075DBD3CD0F4D3C9B3DE9B396E358 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ProtocolBuffers-Swift";
+			target = 07B48A1AD50E2C689D7EF677A0FA4FB7 /* ProtocolBuffers-Swift */;
+			targetProxy = BC62A01604D620C544722ABA3E24D698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		256765C7D7260BD710F64C15D5CD2135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13EF0B6D35AB7BEF280E7555545953B /* ProtocolBuffers-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ProtocolBuffers-Swift/ProtocolBuffers-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProtocolBuffers-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/ProtocolBuffers-Swift/ProtocolBuffers-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ProtocolBuffers;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34342BBF37D3A9ED85FF2EB654934920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		91BF84155B5E697D9B18D77CF9AB4A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13EF0B6D35AB7BEF280E7555545953B /* ProtocolBuffers-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ProtocolBuffers-Swift/ProtocolBuffers-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProtocolBuffers-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/ProtocolBuffers-Swift/ProtocolBuffers-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ProtocolBuffers;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6396C1703F1979CE8D0F4A8670F4129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE7CEBB1AA1F40B30111C47D8D35348 /* Pods-TGServer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TGServer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-TGServer/Pods-TGServer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TGServer;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD230086F4CD7EC5381EB3B045D0844D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE10FE47E2F54A6062ED86E6049BE81 /* Pods-TGServer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TGServer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-TGServer/Pods-TGServer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TGServer;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6FC88CB717F413199C282718D2DC09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19E7A8D04C1F13E091443056175E0C54 /* Build configuration list for PBXNativeTarget "Pods-TGServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD230086F4CD7EC5381EB3B045D0844D /* Debug */,
+				A6396C1703F1979CE8D0F4A8670F4129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34342BBF37D3A9ED85FF2EB654934920 /* Debug */,
+				F6FC88CB717F413199C282718D2DC09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DDCD70F266F9BF6C5BF09A0D16C6B40 /* Build configuration list for PBXNativeTarget "ProtocolBuffers-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91BF84155B5E697D9B18D77CF9AB4A8D /* Debug */,
+				256765C7D7260BD710F64C15D5CD2135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

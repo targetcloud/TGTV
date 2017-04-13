@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.4.0)
+  - Kingfisher (3.5.2)
+  - MJExtension (3.0.13)
+  - ProtocolBuffers-Swift (3.0.13)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SnapKit (3.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - MJExtension
+  - ProtocolBuffers-Swift
+  - SDCycleScrollView
+  - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Kingfisher: 9950e382c500b6834ce004c7c4131c444e90c3a1
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  ProtocolBuffers-Swift: b1962dbfbd2ccb61b57d6a1825cddf6a03c0dd09
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: '098e97e6176540799c27e804c96653ee0833d13c'
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+
+PODFILE CHECKSUM: 59136186677bcf0623743ae65287c16a5daf09c0
+
+COCOAPODS: 1.2.0

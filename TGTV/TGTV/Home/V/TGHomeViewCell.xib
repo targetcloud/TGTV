@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TGHomeViewCell" customModule="TGTV" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="144" height="170"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="144" height="170"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z1U-94-Lyi">
+                        <rect key="frame" x="0.0" y="0.0" width="144" height="170"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_icon_live" translatesAutoresizingMaskIntoConstraints="NO" id="X5K-ls-7jl">
+                        <rect key="frame" x="113" y="8" width="23" height="13"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxv-0W-TbL">
+                        <rect key="frame" x="8" y="151.5" width="128" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCh-Ah-EW5">
+                        <rect key="frame" x="8" y="8" width="37" height="12"/>
+                        <color key="backgroundColor" red="0.67732788705583757" green="0.57819518749728072" blue="0.50237348690852934" alpha="0.15495505136986298" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <inset key="contentEdgeInsets" minX="2" minY="0.0" maxX="4" maxY="0.0"/>
+                        <inset key="titleEdgeInsets" minX="2" minY="0.0" maxX="-2" maxY="0.0"/>
+                        <state key="normal" title="1234" image="home_icon_people">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="z1U-94-Lyi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="35Q-nD-fmx"/>
+                <constraint firstItem="z1U-94-Lyi" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3rr-BB-d4c"/>
+                <constraint firstAttribute="bottom" secondItem="z1U-94-Lyi" secondAttribute="bottom" id="8Jk-og-2DB"/>
+                <constraint firstAttribute="bottom" secondItem="gxv-0W-TbL" secondAttribute="bottom" constant="5" id="Bm6-3r-JYF"/>
+                <constraint firstAttribute="trailing" secondItem="gxv-0W-TbL" secondAttribute="trailing" constant="8" id="Cqa-yR-dTx"/>
+                <constraint firstItem="aCh-Ah-EW5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="ICr-Fr-nKt"/>
+                <constraint firstItem="aCh-Ah-EW5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="LTI-ss-6yW"/>
+                <constraint firstAttribute="trailing" secondItem="z1U-94-Lyi" secondAttribute="trailing" id="UwX-8k-IZ3"/>
+                <constraint firstAttribute="trailing" secondItem="X5K-ls-7jl" secondAttribute="trailing" constant="8" id="a5J-oI-Wt3"/>
+                <constraint firstItem="X5K-ls-7jl" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="cMA-yV-0VT"/>
+                <constraint firstItem="gxv-0W-TbL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="kcj-bK-48X"/>
+            </constraints>
+            <size key="customSize" width="144" height="170"/>
+            <connections>
+                <outlet property="albumImageV" destination="z1U-94-Lyi" id="FEQ-Rd-mPH"/>
+                <outlet property="liveImageV" destination="X5K-ls-7jl" id="ElF-9D-fnv"/>
+                <outlet property="nickNameLbl" destination="gxv-0W-TbL" id="43N-bd-D2f"/>
+                <outlet property="onlineLbl" destination="aCh-Ah-EW5" id="D8o-IL-YuI"/>
+            </connections>
+            <point key="canvasLocation" x="72" y="112"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="home_icon_live" width="23" height="13"/>
+        <image name="home_icon_people" width="7" height="7"/>
+    </resources>
+</document>
