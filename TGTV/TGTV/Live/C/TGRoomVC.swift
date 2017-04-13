@@ -4,7 +4,7 @@
 //
 //  Created by targetcloud on 2017/4/11.
 //  Copyright © 2017年 targetcloud. All rights reserved.
-//
+//http://blog.csdn.net/callzjy/article/details/70160050
 
 import UIKit
 import Kingfisher

@@ -4,8 +4,8 @@
 //
 //  Created by targetcloud on 2017/3/22.
 //  Copyright © 2017年 targetcloud. All rights reserved.
-//
-//TODO: 图标支持
+//http://blog.csdn.net/callzjy/article/details/70160050
+
 import UIKit
 
 //MARK:delegate 1
